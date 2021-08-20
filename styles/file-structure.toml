@@ -1,0 +1,17 @@
+[nitpick.files.absent]
+"requirements.txt" = "Move dependencies to setup.cfg, section [options] and [options.extra]"
+"Pipfile" = "Use setup.cfg instead"
+"Pipfile.lock" = "Use setup.cfg instead"
+
+".isort.cfg" = "Move values to setup.cfg, section [isort]"
+".flake8" = "Move values to setup.cfg, section [flake8]"
+"mypy.ini" = "Move values to setup.cfg, section [mypy]"
+
+".travis.yml" = "Travis is shutting down, please switch to .gitlab-ci.yml"
+
+
+[nitpick.files.present]
+".editorconfig" = "A project should have an editor configuration"
+"README.md" = "A project should have a `README.md` description"
+".gitignore" = "A project should have a `.gitignore` file"
+"pyproject.toml" = "A project should have a `pyproject.toml` file"
